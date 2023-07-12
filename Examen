@@ -1,0 +1,201 @@
+import numpy as np
+departamentos=[{ "A1", "A2", "A3", "A4", "A5", "A6", "A7", "A8", "A9", "A10"},
+               { "B1", "B2", "B3", "B4", "B5", "B6", "B7", "B8", "B9", "B10"},
+               { "C1", "C2", "C3", "C4", "C5", "C6", "C7", "C8", "C9", "C10"},
+               { "D1", "D2", "D3", "D4", "D5", "D6", "D7", "D8", "D9", "D10"}]
+
+
+def disponibilidad ():
+  dispo=len(departamentos)
+  for i in range(dispo):
+    print(departamentos[i])
+
+def op5():
+  if op==5:
+    print("Hasta pronto ^^          Camila Retamal           12 Julio 2023")
+
+def clientes():
+  ruts.sort()
+  run_r=len(ruts)
+  print("el rut ingresadop es:  ")
+  for a in range(run_r):
+    print(f"cliente rut  ",ruts[a])
+a=1
+while a==1:
+  print ("op1: comprar departamento")
+  print ("op2: mostrar departamentos disponibles")
+  print ("op3= ver listado de compradores")
+  print ("op4= mostrar ganancias totales")
+  print ("op5= salir")
+  
+  try:
+    op=int(input("ingrese una opción:  "))
+    if op >0 and op<6:
+      if op ==1:
+        print("tipo A -> 38000")
+        print("tipo B -> 30000")
+        print("tipo C -> 28000")
+        print("tipo D -> 35000")
+        disponibilidad()
+        piso=int(input("ingrese el piso que desea  "))
+        if piso == 1:
+          depa=str(input("ingrese el tipo de departamento que desea  "))
+          if depa == "A":
+            depacom[0].remove(borrar)
+            depacom[0].insert(0, "x")
+          if depa == "B":
+            depacom[0].remove(borrar)
+            depacom[0].insert(1, "x")
+          if depa == "C":
+            depacom[0].remove(borrar)
+            depacom[0].insert(2, "x")
+          if depa == "D":
+            depacom[0].remove(borrar)
+            depacom[0].insert(3, "x")
+      
+        if piso == 2:
+          depa=str(input("ingrese el tipo de departamento que desea  "))
+          if depa == "A":
+            depacom[1].remove(borrar)
+            depacom[1].insert(0, "x")
+          if depa == "B":
+            depacom[1].remove(borrar)
+            depacom[1].insert(1, "x")
+          if depa == "C":
+            depacom[1].remove(borrar)
+            depacom[1].insert(2, "x")
+          if depa == "D":
+            depacom[1].remove(borrar)
+            depacom[1].insert(3, "x")
+        if piso == 3:
+          depa=str(input("ingrese el tipo de departamento que desea  "))
+          if depa == "A":
+            depacom[2].remove(borrar)
+            depacom[2].insert(0, "x")
+          if depa == "B":
+            depacom[2].remove(borrar)
+            depacom[2].insert(1, "x")
+          if depa == "C":
+            depacom[2].remove(borrar)
+            depacom[2].insert(2, "x")
+          if depa == "D":
+            depacom[2].remove(borrar)
+            depacom[2].insert(3, "x")
+        if piso == 4:
+          depa=str(input("ingrese el tipo de departamento que desea  "))
+          if depa == "A":
+            depacom[3].remove(borrar)
+            depacom[3].insert(0, "x")
+          if depa == "B":
+            depacom[3].remove(borrar)
+            depacom[3].insert(1, "x")
+          if depa == "C":
+            depacom[3].remove(borrar)
+            depacom[3].insert(2, "x")
+          if depa == "D":
+            depacom[3].remove(borrar)
+            depacom[3].insert(3, "x")
+        if piso == 5:
+          depa=str(input("ingrese el tipo de departamento que desea  "))
+          if depa == "A":
+            depacom[4].remove(borrar)
+            depacom[4].insert(0, "x")
+          if depa == "B":
+            depacom[4].remove(borrar)
+            depacom[4].insert(1, "x")
+          if depa == "C":
+            depacom[4].remove(borrar)
+            depacom[4].insert(2, "x")
+          if depa == "D":
+            depacom[4].remove(borrar)
+            depacom[4].insert(3, "x")
+        if piso == 6:
+          depa=str(input("ingrese el tipo de departamento que desea  "))
+          if depa == "A":
+            depacom[5].remove(borrar)
+            depacom[5].insert(0, "x")
+          if depa == "B":
+            depacom[5].remove(borrar)
+            depacom[5].insert(1, "x")
+          if depa == "C":
+            depacom[5].remove(borrar)
+            depacom[5].insert(2, "x")
+          if depa == "D":
+            depacom[5].remove(borrar)
+            depacom[5].insert(3, "x")
+        if piso == 7:
+          depa=str(input("ingrese el tipo de departamento que desea  "))
+          if depa == "A":
+            depacom[6].remove(borrar)
+            depacom[6].insert(0, "x")
+          if depa == "B":
+            depacom[6].remove(borrar)
+            depacom[6].insert(1, "x")
+          if depa == "C":
+            depacom[6].remove(borrar)
+            depacom[6].insert(2, "x")
+          if depa == "D":
+            depacom[6].remove(borrar)
+            depacom[6].insert(3, "x")
+        if piso == 8:
+          depa=str(input("ingrese el tipo de departamento que desea  "))
+          if depa == "A":
+            depacom[7].remove(borrar)
+            depacom[7].insert(0, "x")
+          if depa == "B":
+            depacom[7].remove(borrar)
+            depacom[7].insert(1, "x")
+          if depa == "C":
+            depacom[7].remove(borrar)
+            depacom[7].insert(2, "x")
+          if depa == "D":
+            depacom[7].remove(borrar)
+            depacom[7].insert(3, "x")
+        if piso == 9:
+          depa=str(input("ingrese el tipo de departamento que desea  "))
+          if depa == "A":
+            depacom[8].remove(borrar)
+            depacom[8].insert(0, "x")
+          if depa == "B":
+            depacom[8].remove(borrar)
+            depacom[8].insert(1, "x")
+          if depa == "C":
+            depacom[8].remove(borrar)
+            depacom[8].insert(2, "x")
+          if depa == "D":
+            depacom[8].remove(borrar)
+            depacom[8].insert(3, "x")
+        if piso == 10:
+          depa=str(input("ingrese el tipo de departamento que desea  "))
+          if depa == "A":
+            depacom[9].remove(borrar)
+            depacom[9].insert(0, "x")
+          if depa == "B":
+            depacom[9].remove(borrar)
+            depacom[9].insert(1, "x")
+          if depa == "C":
+            depacom[9].remove(borrar)
+            depacom[9].insert(2, "x")
+          if depa == "D":
+            depacom[9].remove(borrar)
+            depacom[9].insert(3, "x")
+      if op==2:
+        print("los departamentos disponibles son :")
+        disponibilidads()
+
+      if op==3:
+        clientes()
+
+    
+
+
+
+
+
+      if op==5:
+        op5()
+
+
+  except: 
+   a==0
+   print ("ERROR")
